@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Produits - KARPE CRÉATION</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/WhatsApp Image 2025-06-16 at 20.16.13_003c4047.jpg" alt="Logo KARPE CRÉATION">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Nos Produits</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="products-listing">
+            <h1>Découvrez Toutes Nos Créations</h1>
+            <div class="filters">
+                <input type="text" placeholder="Rechercher un produit...">
+                <select>
+                    <option value="">Toutes les catégories</option>
+                    <option value="bijoux">Bijoux</option>
+                    <option value="decoration">Porte-clés</option> <option value="accessoires">Sacs personnalisés sur commande</option> </select>
+                <button>Appliquer</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="image/OIP (1).webp" alt="Produit 1">
+                    <h3>Nom du Produit 1</h3>
+                    <p class="price">20000 fcfa</p>
+                    <p class="short-description">Description courte du produit.</p>
+                    <button class="add-to-cart-btn" data-product-id="1">Ajouter au panier</button>
+                    <a href="produit-detail.html?id=1" class="btn-product-detail">Détails</a>
+                </div>
+                <div class="product-card">
+                    <img src="image/IMG-20250616-WA0029.jpg" alt="Produit 2">
+                    <h3>Nom du Produit 2</h3>
+                    <p class="price">1500 fcfa</p>
+                    <p class="short-description">Description courte du produit.</p>
+                    <button class="add-to-cart-btn" data-product-id="2">Ajouter au panier</button>
+                    <a href="produit-detail.html?id=2" class="btn-product-detail">Détails</a>
+                </div>
+                <div class="product-card">
+                    <img src="image/IMG-20250616-WA0025.jpg" alt="Produit 3">
+                    <h3>Nom du Produit 3</h3>
+                    <p class="price">10000 fcfa</p>
+                    <p class="short-description">Description courte du produit.</p>
+                    <button class="add-to-cart-btn" data-product-id="3">Ajouter au panier</button>
+                    <a href="produit-detail.html?id=3" class="btn-product-detail">Détails</a>
+                </div>
+                <div class="product-card">
+                    <img src="image/IMG-20250616-WA0028.jpg" alt="Produit 4">
+                    <h3>Nom du Produit 4</h3>
+                    <p class="price">10000 fcfa Dhs</p>
+                    <p class="short-description">Description courte du produit.</p>
+                    <button class="add-to-cart-btn" data-product-id="4">Ajouter au panier</button>
+                    <a href="produit-detail.html?id=4" class="btn-product-detail">Détails</a>
+                </div>
+                <div class="product-card">
+                    <img src="image/IMG-20250616-WA0008.jpg" alt="Produit 5"> <h3>Nom du Produit 5</h3> <p class="price">10000 fcfa</p>
+                    <p class="short-description">Description courte du produit.</p>
+                    <button class="add-to-cart-btn" data-product-id="5">Ajouter au panier</button> <a href="produit-detail.html?id=5" class="btn-product-detail">Détails</a> </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 KARPE CRÉATION. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="images/icon-facebook.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="images/icon-instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

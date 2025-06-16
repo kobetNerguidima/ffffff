@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Panier - KARPE CRÉATION</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="image/WhatsApp Image 2025-06-16 at 20.16.13_003c4047.jpg" alt="Logo KARPE CRÉATION">
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="produits.html">Nos Produits</a></li>
+                <li><a href="panier.html">Panier</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-summary">
+            <h1>Votre Panier</h1>
+            <div class="cart-items">
+                <div class="cart-item">
+                    <img src="image/IMG-20250616-WA0006.jpg" alt="Produit 1">
+                    <div class="item-details">
+                        <h3>Nom du Produit 1</h3>
+                        <p>Prix unitaire: 20000 fcfa</p>
+                        <div class="item-quantity">
+                            <label for="qty1">Quantité:</label>
+                            <input type="number" id="qty1" value="1" min="1" data-item-id="1">
+                            <button class="remove-item">Supprimer</button>
+                        </div>
+                        <p class="item-total">Total: 20000 fcfa</p>
+                    </div>
+                </div>
+                <div class="cart-item">
+                    <img src="image/OIP.webp" alt="Produit 2">
+                    <div class="item-details">
+                        <h3>Nom du Produit 2</h3>
+                        <p>Prix unitaire: 1500 fcfa</p>
+                        <div class="item-quantity">
+                            <label for="qty2">Quantité:</label>
+                            <input type="number" id="qty2" value="2" min="1" data-item-id="2">
+                            <button class="remove-item">Supprimer</button>
+                        </div>
+                        <p class="item-total">Total: 3000 fcfa</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart-totals">
+                <p>Sous-total: <span id="subtotal">23000 fcfa</span></p>
+                <p>Livraison: <span id="shipping">500 fcfa</span></p>
+                <p class="grand-total">Total à payer: <span id="grandTotal">23500 fcfa</span></p>
+            </div>
+
+            <div class="cart-actions">
+                <a href="produits.html" class="btn-secondary">Continuer mes achats</a>
+                <button class="btn-primary" id="checkout-btn">Passer à la caisse</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 KARPE CRÉATION. Tous droits réservés.</p>
+            <div class="social-media">
+                <a href="#" target="_blank"><img src="images/icon-facebook.png" alt="Facebook"></a>
+                <a href="#" target="_blank"><img src="images/icon-instagram.png" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
